@@ -1,7 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt 
-import numpy as np  
-import seaborn as sns
 df=pd.read_csv(r"C:\Users\USER\OneDrive\Desktop\mine\AI Job Market Dataset.csv")
 print(df.head(10))
 print(df.info())
